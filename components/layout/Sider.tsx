@@ -261,7 +261,7 @@ class InternalSider extends React.Component<InternalSideProps, SiderState> {
 }
 
 // eslint-disable-next-line react/prefer-stateless-function
-export default class Sider extends React.Component {
+export default class Sider extends React.Component<SiderProps> {
   render() {
     return (
       <LayoutContext.Consumer>
